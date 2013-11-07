@@ -1,0 +1,10 @@
+name: locale
+version: 0.0.1
+description: Generate and install locale
+properties:
+    locale:
+        type: string
+        required: true
+    charset:
+        type: string
+        required: true
