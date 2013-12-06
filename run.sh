@@ -10,4 +10,4 @@ fi
 
 input=`expr match "$WERCKER_LOCALE_LOCALE" '\(^[^\.]\+\)'`
 
-localedef -i $input -c -f $WERCKER_LOCALE_CHARSET -A /usr/share/locale/locale.alias $WERCKER_LOCALE_LOCALE
+sudo localedef -i $input -c -f $WERCKER_LOCALE_CHARSET -A /usr/share/locale/locale.alias $WERCKER_LOCALE_LOCALE
